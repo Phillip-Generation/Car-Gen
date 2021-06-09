@@ -4,9 +4,9 @@ package com.example.car_gen;
 public class Main {
 
     public static void main(String[] args) {
-        Car civic = new Honda("red", 2015,5,120,false,false);
-        Car rx350 = new Lexus("white",2019,0,210,false,true);
-        Car supra = new Toyota("blue",2020,199,200,true, true);
+        Car civic = new Honda("Civic","red", 2015,5,120,false,false);
+        Car rx350 = new Lexus("rx350","white",2019,0,210,false,true);
+        Car supra = new Toyota("Supra","blue",2020,199,200,true, true);
         System.out.println(civic.getColor());
         System.out.println(rx350.getColor());
         System.out.println(supra.getColor());
