@@ -67,8 +67,9 @@ public class Car {
         }
     }
     public void convertToElectric(){
-        if(isElectric != true){
+        if(!isElectric){
             isElectric = true;
+            System.out.println("Car converted to Electric");
         }else {
             System.out.println("Car is already Electric");
         }
