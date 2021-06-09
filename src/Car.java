@@ -51,4 +51,27 @@ public class Car {
     public void setElectric(boolean electric) {
         isElectric = electric;
     }
+
+    public void accelerateSpeed() {
+        if(this.speed+5 <= this.maxSpeed) {
+            this.speed += 5;
+        } else {
+            System.out.println("Max speed reached.");
+        }
+    }
+    public void decelerateSpeed() {
+        if(this.speed-5 >= 0) {
+            this.speed -= 5;
+        } else {
+            System.out.println("Can't go below 0MPH");
+        }
+    }
+    public void convertToElectric() {
+        if(this.isElectric = true) {
+            System.out.println("The car is already electric");
+        } else {
+            this.isElectric = true;
+            System.out.println("Changing to an electric car...");
+        }
+    }
 }
