@@ -40,7 +40,7 @@ public class Car {
     public int getMaxSpeed(){
         return maxSpeed;
     }
-    public void setMaxSpee(int maxSpeed){
+    public void setMaxSpeed(int maxSpeed){
         this.maxSpeed = maxSpeed;
     }
 
@@ -49,5 +49,28 @@ public class Car {
     }
     public void setIsElectric(boolean isElectric){
         this.isElectric = isElectric;
+    }
+
+    //Method
+    public void accelerateSpeed(){
+        if( speed+5 <= maxSpeed){
+            speed += 5;
+        }else {
+            System.out.println("Car Max Speed Reached");
+        }
+    }
+    public void decelerateSpeed(){
+        if(speed-5 >= 0){
+            speed -= 5;
+        }else{
+            System.out.println("Car is not in motion");
+        }
+    }
+    public void convertToElectric(){
+        if(isElectric != true){
+            isElectric = true;
+        }else {
+            System.out.println("Car is already Electric");
+        }
     }
 }
