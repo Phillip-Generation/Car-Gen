@@ -20,7 +20,7 @@ public class Main {
         System.out.println(rx350.getSpeed());
 
         supra.convertToElectric();
-        System.out.println(supra.getSpeed());
+        System.out.println(supra.getElectric());
 
     }
 
