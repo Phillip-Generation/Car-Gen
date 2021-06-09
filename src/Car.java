@@ -8,5 +8,4 @@ public class Car {
     public Car(String color, int year, int speed, int maxSpeed) {
 
     }
-
 }
