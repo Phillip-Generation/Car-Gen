@@ -7,4 +7,12 @@ public class Lexus extends Car {
         super(color, year, speed, maxSpeed);
         this.hasLeatherSeats = hasLeatherSeats;
     }
+
+    public boolean getHasLeatherSeats(){
+        return hasLeatherSeats;
+    }
+
+    public void setHasLeatherSeats(boolean hasLeather){
+        this.hasLeatherSeats = hasLeather;
+    }
 }

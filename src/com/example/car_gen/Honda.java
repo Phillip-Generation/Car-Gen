@@ -7,4 +7,12 @@ public class Honda extends Car {
         super(color, year, speed, maxSpeed);
         this.isTurboCharged = isTurboCharged;
     }
+
+    public boolean getIsTurboCharged(){
+        return isTurboCharged;
+    }
+
+    public void setIsTurboCharged(boolean isTurbo){
+        this.isTurboCharged = isTurbo;
+    }
 }

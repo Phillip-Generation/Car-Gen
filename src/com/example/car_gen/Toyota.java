@@ -7,4 +7,12 @@ public class Toyota extends Car {
         super(color, year, speed, maxSpeed);
         this.greatGasMileage = greatGasMileage;
     }
+
+    public boolean getGreatGasMileage(){
+        return greatGasMileage;
+    }
+
+    public void setGreatGasMileage(boolean greatGas){
+        this.greatGasMileage = greatGas;
+    }
 }
