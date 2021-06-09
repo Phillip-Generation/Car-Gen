@@ -6,7 +6,10 @@ public class Car {
     private boolean isElectric;
 
     public Car(String color, int year, int speed, int maxSpeed) {
-
+        this.color = color;
+        this.year = year;
+        this.speed = speed;
+        this.maxSpeed = maxSpeed;
     }
 
     public String getColor() {
