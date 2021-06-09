@@ -9,6 +9,9 @@ public class Main {
        System.out.println(civic.getColor());
        System.out.println(rx350.getColor());
        System.out.println(supra.getColor());
+       System.out.println(rx350);
+       System.out.println(supra);
+       System.out.println(civic);
     }
 
 }
