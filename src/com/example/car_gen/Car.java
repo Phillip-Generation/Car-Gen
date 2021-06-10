@@ -59,9 +59,11 @@ public class Car {
         } else {
             System.out.println("The car speed has now reduced to: " + speed + " MPH");
         }
+
+
     }
     public void convertToElectric() {
-        if (isElectric == true) {
+        if  (isElectric == true) {
             System.out.println("The car is already electric");
         } else {
             isElectric = true;
